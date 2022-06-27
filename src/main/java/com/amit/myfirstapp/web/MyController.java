@@ -11,12 +11,12 @@ public class MyController {
 
 	@GetMapping("/hello/{name}")
 	public String sayHello(@PathVariable String name) {
-		return "Hello " +name;
+		return "Hello..... " +name;
 	}
 	
 	@GetMapping("/greeting/{name}")
 	public String greeting(@PathVariable String name) {
-		return "Very Good Morning " +name;
+		return "Very Good Morning.... " +name;
 	}
 	
 }
